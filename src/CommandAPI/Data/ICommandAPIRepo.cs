@@ -6,6 +6,7 @@ namespace CommandAPI.Data
     public interface ICommandAPIRepo
     {
         bool SaveChanges();
+
         public IEnumerable<Command> GetAllCommands();
 
         Command GetCommandsById(int id);

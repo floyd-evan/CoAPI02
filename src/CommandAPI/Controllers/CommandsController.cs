@@ -15,6 +15,7 @@ namespace CommandAPI.Controllers
         {
             _repository = repository;
         }
+
         [HttpGet]
         public ActionResult<IEnumerable<Command>> GetAllCommands()
         {
@@ -25,14 +26,14 @@ namespace CommandAPI.Controllers
         [HttpGet("{id}")]
         public ActionResult<Command> GetCommandsById(int id)
         {
-            var commandResult = _repository.GetCommandsById(id);
-            if(commandResult == null)
+            var commandItem = _repository.GetCommandsById(id);
+            if(commandItem == null)
             {
                 return NotFound();
             }
             else
             {
-                return Ok(commandResult);
+                return Ok(commandItem);
             }
         }
     }
