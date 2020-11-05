@@ -39,3 +39,5 @@
 /Users/Floyd/Projects/CommandAPI/src/CommandAPI/bin/Debug/netcoreapp3.1/System.Collections.Immutable.dll
 /Users/Floyd/Projects/CommandAPI/src/CommandAPI/bin/Debug/netcoreapp3.1/System.Diagnostics.DiagnosticSource.dll
 /Users/Floyd/Projects/CommandAPI/src/CommandAPI/obj/Debug/netcoreapp3.1/CommandAPI.csproj.CopyComplete
+/Users/Floyd/Projects/CommandAPI/src/CommandAPI/bin/Debug/netcoreapp3.1/AutoMapper.dll
+/Users/Floyd/Projects/CommandAPI/src/CommandAPI/bin/Debug/netcoreapp3.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
