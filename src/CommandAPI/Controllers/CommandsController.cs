@@ -20,6 +20,35 @@ namespace CommandAPI.Controllers
             _mapper = mapper;
         }
 
+        [HttpPost]
+        public ActionResult<CommandReadDto> CreateCommand(CommandCreateDto commandCreateDto)
+        {
+            var commandModel = _mapper.Map<Command>(commandCreateDto);
+            _repository.CreateCommand(commandModel);
+            _repository.SaveChanges();
+
+            var commandReadDto = _mapper.Map<CommandReadDto>(commandModel);
+            return CreatedAtRoute(nameof(GetCommandsById), new {Id = commandReadDto.Id}, commandReadDto);
+        }
+
+        [HttpPut("{id}")]
+        public ActionResult UpdateCommand(int id, CommandUpdateDto commandUpdateDto)
+        {
+            var commandFromRepo = _repository.GetCommandsById(id);
+            if(commandFromRepo == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                _mapper.Map(commandUpdateDto, commandFromRepo);
+                _repository.UpdateCommand(commandFromRepo);
+                _repository.SaveChanges();
+
+                return NoContent();
+            }
+        }
+
         [HttpGet]
         public ActionResult<IEnumerable<CommandReadDto>> GetAllCommands()
         {
@@ -27,7 +56,7 @@ namespace CommandAPI.Controllers
             return Ok(_mapper.Map<IEnumerable<CommandReadDto>>(commandList));
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("{id}", Name = "GetCommandsById")]
         public ActionResult<CommandReadDto> GetCommandsById(int id)
         {
             var commandItem = _repository.GetCommandsById(id);
