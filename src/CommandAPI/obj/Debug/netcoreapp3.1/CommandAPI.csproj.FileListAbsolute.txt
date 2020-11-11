@@ -41,3 +41,7 @@
 /Users/Floyd/Projects/CommandAPI/src/CommandAPI/obj/Debug/netcoreapp3.1/CommandAPI.csproj.CopyComplete
 /Users/Floyd/Projects/CommandAPI/src/CommandAPI/bin/Debug/netcoreapp3.1/AutoMapper.dll
 /Users/Floyd/Projects/CommandAPI/src/CommandAPI/bin/Debug/netcoreapp3.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/Floyd/Projects/CommandAPI/src/CommandAPI/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.JsonPatch.dll
+/Users/Floyd/Projects/CommandAPI/src/CommandAPI/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+/Users/Floyd/Projects/CommandAPI/src/CommandAPI/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/Floyd/Projects/CommandAPI/src/CommandAPI/bin/Debug/netcoreapp3.1/Newtonsoft.Json.Bson.dll

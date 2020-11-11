@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "oTxF7a89o5BhXFhReBjuKjgRcgkr77m7h/arq7MVOCEBvaMVqmwLO7miHr76i4MdECZF4Y2UHpaDc2+NDCPlfw==",
+  "dgSpecHash": "2gXTfWcM8RjrWhWdclF35uOPhcGrl9Y0+Zblqb/qIRLxemYxunAMLMuW5SCovhxslwUYMqX1SgGuFHvchz435g==",
   "success": true,
   "projectFilePath": "/Users/Floyd/Projects/CommandAPI/src/CommandAPI/CommandAPI.csproj",
   "expectedPackageFiles": [
     "/Users/Floyd/.nuget/packages/automapper/10.1.0/automapper.10.1.0.nupkg.sha512",
     "/Users/Floyd/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/8.1.0/automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
     "/Users/Floyd/.nuget/packages/microsoft.aspnetcore.jsonpatch/3.1.9/microsoft.aspnetcore.jsonpatch.3.1.9.nupkg.sha512",
+    "/Users/Floyd/.nuget/packages/microsoft.aspnetcore.mvc.newtonsoftjson/3.1.9/microsoft.aspnetcore.mvc.newtonsoftjson.3.1.9.nupkg.sha512",
     "/Users/Floyd/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/Floyd/.nuget/packages/microsoft.bcl.hashcode/1.1.0/microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "/Users/Floyd/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
@@ -27,6 +28,7 @@
     "/Users/Floyd/.nuget/packages/microsoft.extensions.options/3.1.9/microsoft.extensions.options.3.1.9.nupkg.sha512",
     "/Users/Floyd/.nuget/packages/microsoft.extensions.primitives/3.1.9/microsoft.extensions.primitives.3.1.9.nupkg.sha512",
     "/Users/Floyd/.nuget/packages/newtonsoft.json/12.0.2/newtonsoft.json.12.0.2.nupkg.sha512",
+    "/Users/Floyd/.nuget/packages/newtonsoft.json.bson/1.0.2/newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "/Users/Floyd/.nuget/packages/npgsql/4.1.3.1/npgsql.4.1.3.1.nupkg.sha512",
     "/Users/Floyd/.nuget/packages/npgsql.entityframeworkcore.postgresql/3.1.4/npgsql.entityframeworkcore.postgresql.3.1.4.nupkg.sha512",
     "/Users/Floyd/.nuget/packages/system.collections.immutable/1.7.1/system.collections.immutable.1.7.1.nupkg.sha512",
